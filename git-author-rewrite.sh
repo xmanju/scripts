@@ -2,7 +2,7 @@
 
 git filter-branch --env-filter '
 
-OLD_EMAIL="old-email-address"
+OLD_EMAIL="manjunath@iflix.com"
 CORRECT_NAME="Manjunath Reddy"
 CORRECT_EMAIL="manjunath.chk@gmail.com"
 
