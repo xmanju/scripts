@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# https://help.github.com/articles/changing-author-info/
+# Changing the old username to new username for all commits in git
+
 git filter-branch --env-filter '
 
 OLD_EMAIL="old-username"
